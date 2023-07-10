@@ -25,6 +25,7 @@ public class Board : MonoBehaviour
                 GameObject backGroundTile = Instantiate(tilePrefab, tempPosition, Quaternion.identity) as GameObject;
                 backGroundTile.transform.parent = this.transform;
                 backGroundTile.name = "(" + i +" , " + j + ")";
+
             }
         }
     
