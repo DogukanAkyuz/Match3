@@ -80,8 +80,13 @@ public class Dot : MonoBehaviour
                 row = previousRow;
                 column = previousColumn;
             }
+            else
+            {
+                board.DestroyMatches();
+            }
             otherDot = null;
         }
+        
 
 
     }
